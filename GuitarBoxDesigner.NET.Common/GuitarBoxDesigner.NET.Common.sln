@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarBoxDesigner.NET.Facto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarBoxDesigner.NET.Prototype", "..\GuitarBoxDesigner.NET.Prototype\GuitarBoxDesigner.NET.Prototype.csproj", "{BD65ACB5-84AC-45D0-812B-552F4FA7A2DE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{4FCFE352-4EB2-4058-90D2-9A27FBAF74AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuitarBoxDesigner.NET.Builder", "..\GuitarBoxDesigner.NET.Builder\GuitarBoxDesigner.NET.Builder.csproj", "{ADD28FA6-4936-4BF5-ACCF-EF581500F215}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,9 +37,19 @@ Global
 		{BD65ACB5-84AC-45D0-812B-552F4FA7A2DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD65ACB5-84AC-45D0-812B-552F4FA7A2DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD65ACB5-84AC-45D0-812B-552F4FA7A2DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD28FA6-4936-4BF5-ACCF-EF581500F215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD28FA6-4936-4BF5-ACCF-EF581500F215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD28FA6-4936-4BF5-ACCF-EF581500F215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD28FA6-4936-4BF5-ACCF-EF581500F215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4A8B57D-EFDF-4C2F-ACB9-26C7D90617C4} = {4FCFE352-4EB2-4058-90D2-9A27FBAF74AD}
+		{3F1A4800-0690-4CD4-B061-116F24402C68} = {4FCFE352-4EB2-4058-90D2-9A27FBAF74AD}
+		{BD65ACB5-84AC-45D0-812B-552F4FA7A2DE} = {4FCFE352-4EB2-4058-90D2-9A27FBAF74AD}
+		{ADD28FA6-4936-4BF5-ACCF-EF581500F215} = {4FCFE352-4EB2-4058-90D2-9A27FBAF74AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A22CF7C-C323-4472-A51A-8E4CF06B4293}
